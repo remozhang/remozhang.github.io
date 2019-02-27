@@ -3,14 +3,14 @@ title: JavaScript中的this
 date: 2017-01-02 20:37:00
 tags: JavaScript
 cdn: 'header-on'
-header-img: 'java%E4%B8%AD%E7%9A%84this.jpeg'
+header-img: 'large/6996c260ly1g0l1do94olj208b04o3yh.jpg'
 ---
 
 ## 前言
 
 javascript中的this到底是个什么东西？表示学了这么久有时候还是会出现混淆，她简直像个恶魔！
 群里大神一句话说过是指向直接调用她的对象，也就是点前的对象，我研究了下，终是有所领悟。
-<center>![JavaScript中的this](http://oixvaz45b.bkt.clouddn.com/java%E4%B8%AD%E7%9A%84this.jpeg)</center>
+<center>![JavaScript中的this](https://wx1.sinaimg.cn/large/6996c260ly1g0l1do94olj208b04o3yh.jpg)</center>
 
 
 ## 她是个啥？
@@ -22,7 +22,7 @@ javascript中的this到底是个什么东西？表示学了这么久有时候还
 `4.apply、call调用`
 
 来来来，让我来一步一步解开她的衣衫
-<center>![老司机](http://oixvaz45b.bkt.clouddn.com/laosiji1.jpg)</center>
+<center>![老司机](https://wx2.sinaimg.cn/large/6996c260ly1g0l1ds9ucfj20b406yaal.jpg)</center>
 
 
 ## 1.纯粹的函数调用

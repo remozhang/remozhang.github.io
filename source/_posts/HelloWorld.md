@@ -3,7 +3,7 @@ title: Hello World!
 date: 2016-12-30 11:00:22
 tags: Hello World!
 cdn: "header-on"
-header-img: "laosiji.jpg"
+header-img: "large/6996c260ly1g0l1dr2jrgj20ct07omxq.jpg"
 ---
 开篇自然是要`Hello World`,顺便记录下怎么搭的博客。
 

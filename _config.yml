@@ -135,7 +135,7 @@ deploy:
 
 
 # img CDN path
-cdn-url: https://wx3.sinaimg.cn # 你的CDN地址
+cdn-url: https://wx3.sinaimg.cn/ # 你的CDN地址
 
 # Qiniu imageView2 API
 # More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
