@@ -12,12 +12,12 @@ timezone:
 # custom Site settings
 # more detail check out docs
 SEOTitle: remozhang's blog
-header-img: http://oixvaz45b.bkt.clouddn.com/lion-blur-bg.jpg
-email: 814895077@qq.com
+header-img: https://wx3.sinaimg.cn/large/6996c260ly1g0l1dtuyaij22801e00vi.jpg
+email: awesomelei.cn@gmail.com
 description: "一位老司机的停车场"
 keyword: 司机,remozhang # seo key words
 
-favicon: http://oixvaz45b.bkt.clouddn.com/favicon.ico # your favicon png
+favicon: https://wx2.sinaimg.cn/large/6996c260ly1g0l1dl3q5kj200w00wjr5.jpg # your favicon png
 # custom end
 
 # URL
@@ -57,8 +57,8 @@ ga_track_id:             # Format: UA-xxxxxx-xx
 ga_domain:
 
 # Sidebar settings
-sidebar-about-description: 日子怎么过？吃饭,前端,健身,修车,睡觉 # 个人描述
-sidebar-avatar: http://oixvaz45b.bkt.clouddn.com/myphoto.png  # use absolute URL
+sidebar-about-description: 哈喽呀, 各位老师 # 个人描述
+sidebar-avatar: https://wx3.sinaimg.cn/large/6996c260ly1g0l1dvr7xqj204c052aa5.jpg  # use absolute URL
 
 
 # Featured Tags
@@ -135,7 +135,7 @@ deploy:
 
 
 # img CDN path
-cdn-url: http://oixvaz45b.bkt.clouddn.com/ # 你的CDN地址
+cdn-url: https://wx3.sinaimg.cn # 你的CDN地址
 
 # Qiniu imageView2 API
 # More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
