@@ -30,7 +30,7 @@ permalink_defaults:
 # SNS settings
 # RSS:
 # weibo_username: haojen
-zhihu_username: zhang-lei-90-8
+#zhihu_username: zhang-lei-90-8
 github_username: remozhang
 # twitter_username: ehazon
 # facebook_username:
@@ -124,7 +124,7 @@ markdown:
     - markdown-it-emoji
 
 ## Themes: https://hexo.io/themes/
-theme: Anisina
+theme: freemind
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
