@@ -133,7 +133,7 @@ var _hmt = _hmt || [];
 
 	<!-- content -->
 	<div class="mypage">		
-	  
+	  		
 
 	  <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>javascript中的this到底是个什么东西？表示学了这么久有时候还是会出现混淆，她简直像个恶魔！<br>群里大神一句话说过是指向直接调用她的对象，也就是点前的对象，我研究了下，终是有所领悟。</p>
 <center><img src="https://wx1.sinaimg.cn/large/6996c260ly1g0l1do94olj208b04o3yh.jpg" alt="JavaScript中的this"></center>
@@ -172,7 +172,7 @@ var _hmt = _hmt || [];
 <figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line"><span class="keyword">var</span> obj = &#123;</div><div class="line">	<span class="attr">name</span>: <span class="string">'remo'</span>,</div><div class="line">	<span class="attr">showName</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">		<span class="built_in">console</span>.log(<span class="keyword">this</span>.name);</div><div class="line">	&#125;,</div><div class="line"></div><div class="line">	<span class="attr">showNameLater</span>: <span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">		setTimeout(<span class="function"><span class="params">()</span>=&gt;</span>&#123;</div><div class="line">			<span class="built_in">console</span>.log(<span class="keyword">this</span>.name);</div><div class="line">		&#125;,<span class="number">1000</span>)</div><div class="line">	&#125;</div><div class="line">&#125;;</div><div class="line"></div><div class="line">obj.showNameLater();</div><div class="line"></div><div class="line"><span class="comment">//remo</span></div></pre></td></tr></table></figure>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line"><span class="keyword">var</span> obj = &#123;</div><div class="line">	<span class="attr">name</span>:<span class="string">'remo'</span>,</div><div class="line">	<span class="attr">showName</span>: <span class="function"><span class="params">()</span> =&gt;</span> &#123;</div><div class="line">		<span class="built_in">console</span>.log(<span class="keyword">this</span>.name);</div><div class="line">	&#125;</div><div class="line">&#125;;</div><div class="line"></div><div class="line">obj.showName();</div><div class="line"><span class="comment">//undefined</span></div></pre></td></tr></table></figure>
 <h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>文章有疏漏与错误之处，望指出！</p>
-
+	  
 	</div>
 
 	<div>
@@ -181,12 +181,12 @@ var _hmt = _hmt || [];
 
     
     
-    <a type="button" class="btn btn-default disabled"><i class="fa fa-arrow-circle-o-left"></i>Anterior</a>
+    <a type="button" class="btn btn-default disabled"><i class="fa fa-arrow-circle-o-left"></i>Prev</a>
     
 
     <a href="/" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
     
-    <a href="/2016/12/30/HelloWorld/" type="button" class="btn btn-default ">Próximo<i
+    <a href="/2016/12/30/HelloWorld/" type="button" class="btn btn-default ">Next<i
                 class="fa fa-arrow-circle-o-right"></i></a>
     
 
@@ -199,7 +199,7 @@ var _hmt = _hmt || [];
 	<!-- comment -->
 	
 <section id="comment">
-    <h2 class="title">Comentários</h2>
+    <h2 class="title">Comments</h2>
 
     
 </section>
