@@ -15,7 +15,7 @@ header-img: "large/6996c260ly1g0l1dr2jrgj20ct07omxq.jpg"
 大概折腾了一天，终于把hexo博客搞出来了。
 hexo还是比较简单的，install&&init&&serve~
 theme还是搬的别人了，自己修修改改，大概算是个样子，分页什么的，打算以后自己维护。
-
+<!-- more -->
 说一下大概，
 * 代码托管gayhub :) 
 * 图片存储于七牛

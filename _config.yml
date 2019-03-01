@@ -155,3 +155,8 @@ swiftype_key:
 archive:
     title: archives
     description: 可以根据归档日期检索所有文件
+
+# excerpt
+auto_excerpt:
+    enable: false
+    length: 150

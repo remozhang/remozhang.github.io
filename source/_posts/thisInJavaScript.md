@@ -23,7 +23,7 @@ javascript中的this到底是个什么东西？表示学了这么久有时候还
 
 来来来，让我来一步一步解开她的衣衫
 <center>![老司机](https://wx2.sinaimg.cn/large/6996c260ly1g0l1ds9ucfj20b406yaal.jpg)</center>
-
+<!-- more -->
 
 ## 1.纯粹的函数调用
 
