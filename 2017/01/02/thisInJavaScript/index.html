@@ -139,11 +139,10 @@ var _hmt = _hmt || [];
 <center><img src="https://wx1.sinaimg.cn/large/6996c260ly1g0l1do94olj208b04o3yh.jpg" alt="JavaScript中的this"></center>
 
 
-<h2 id="她是个啥？"><a href="#她是个啥？" class="headerlink" title="她是个啥？"></a>她是个啥？</h2><p>首先，<code>this</code>是javascript语言的关键字之一，指函数运行时的当前对象，那既然和函数运行有关，js中函数有哪些调用模式呢？</p>
+<h2 id="她是个啥？"><a href="#她是个啥？" class="headerlink" title="她是个啥？"></a>她是个啥？</h2><p>首先，<code>this</code>是javascript语言的关键字之一，指函数运行时的当前对象，那既然和函数运行有关，js中函数有哪些调用模式呢？<br><a id="more"></a></p>
 <p><code>1.纯粹的函数调用</code><br><code>2.对象的方法调用</code><br><code>3.构造函数的调用</code><br><code>4.apply、call调用</code></p>
 <p>来来来，让我来一步一步解开她的衣衫</p>
 <center><img src="https://wx2.sinaimg.cn/large/6996c260ly1g0l1ds9ucfj20b406yaal.jpg" alt="老司机"></center>
-
 
 <h2 id="1-纯粹的函数调用"><a href="#1-纯粹的函数调用" class="headerlink" title="1.纯粹的函数调用"></a>1.纯粹的函数调用</h2><p><strong>函数调用 即<code>function name()</code>模式，这也是我们使用的最多的一种方式，其属于全局调用，浏览中的默认情况下函数内部的this指向<code>window</code>，当然是在非严格模式下。</strong></p>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line"><span class="keyword">this</span>.name = <span class="string">'remo'</span>;</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">showName</span>(<span class="params"></span>) </span>&#123;</div><div class="line">	<span class="built_in">console</span>.log(<span class="keyword">this</span>.name);</div><div class="line">	<span class="built_in">console</span>.log(<span class="keyword">this</span> === <span class="built_in">window</span>);</div><div class="line">&#125;</div><div class="line">showName()</div><div class="line"></div><div class="line"><span class="comment">//remo</span></div><div class="line"><span class="comment">//true</span></div></pre></td></tr></table></figure>
@@ -182,12 +181,12 @@ var _hmt = _hmt || [];
 
     
     
-    <a type="button" class="btn btn-default disabled"><i class="fa fa-arrow-circle-o-left"></i>Anterior</a>
+    <a type="button" class="btn btn-default disabled"><i class="fa fa-arrow-circle-o-left"></i>Prev</a>
     
 
     <a href="/" type="button" class="btn btn-default"><i class="fa fa-home"></i>Home</a>
     
-    <a href="/2016/12/30/HelloWorld/" type="button" class="btn btn-default ">Próximo<i
+    <a href="/2016/12/30/HelloWorld/" type="button" class="btn btn-default ">Next<i
                 class="fa fa-arrow-circle-o-right"></i></a>
     
 
@@ -200,7 +199,7 @@ var _hmt = _hmt || [];
 	<!-- comment -->
 	
 <section id="comment">
-    <h2 class="title">Comentários</h2>
+    <h2 class="title">Comments</h2>
 
     
 </section>
