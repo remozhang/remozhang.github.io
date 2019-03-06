@@ -2,6 +2,7 @@
 title: Hello World!
 date: 2016-12-30 11:00:22
 tags: Hello World!
+toc: true
 cdn: "header-on"
 header-img: "large/6996c260ly1g0l1dr2jrgj20ct07omxq.jpg"
 ---
@@ -13,7 +14,7 @@ header-img: "large/6996c260ly1g0l1dr2jrgj20ct07omxq.jpg"
 直到，我觉得还是先打出来再想写什么好了~
 
 大概折腾了一天，终于把hexo博客搞出来了。
-hexo还是比较简单的，install&&init&&serve~
+hexo还是比较简单的，install&&init&&server~
 theme还是搬的别人了，自己修修改改，大概算是个样子，分页什么的，打算以后自己维护。
 <!-- more -->
 说一下大概，
